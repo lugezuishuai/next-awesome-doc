@@ -1,0 +1,55 @@
+{
+  "name": "@jacksonhuang/random-blog-server",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=14"
+  },
+  "description": "The server of @jacksonhuang/random-blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "reload": "pm2 reload ecosystem.config.js",
+    "restart": "pm2 restart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js",
+    "delete": "pm2 delete ecosystem.config.js",
+    "show": "pm2 show soul-harbor",
+    "logs": "pm2 logs",
+    "flush": "pm2 flush",
+    "watch:prod": "cross-env NODE_ENV=production nodemon --config ./nodemon.dist.json ./dist/bin/server.js",
+    "watch:dev": "cross-env NODE_ENV=development nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "server",
+    "koa"
+  ],
+  "author": "Jackson Huang <984374450@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/multer": "^3.0.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "koa": "^2.14.2",
+    "koa-compress": "^5.1.1",
+    "koa-router": "^12.0.0",
+    "multer": "^1.4.5-lts.1",
+    "redis": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa-compress": "^4.0.3",
+    "@types/koa-multer": "^1.0.1",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^18.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.39.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

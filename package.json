@@ -1,0 +1,23 @@
+{
+  "name": "@jacksonhuang/random-blog",
+  "version": "1.0.0",
+  "description": "This is a random blog by Jackson Huang",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "lint:staged": "sh bin/lint_staged.sh",
+    "type:check": "sh bin/type_check.sh",
+    "commitlint": "commitlint --edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.byted.org:larksuite/yaml-editor.git"
+  },
+  "author": "Jackson Huang <984374450@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1"
+  },
+  "dependencies": {}
+}

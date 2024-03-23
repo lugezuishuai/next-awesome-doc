@@ -1,0 +1,5 @@
+{
+  "ext": ".ts,.js",
+  "ignore": ["**/dist/**", "**/logs/**", "**/node_modules/**", "eslintrc.js", "ecosystem.config.js"],
+  "exec": "ts-node ./app.ts"
+}

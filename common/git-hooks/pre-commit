@@ -1,0 +1,2 @@
+#!/bin/sh
+rush check && pnpm run lint:staged
