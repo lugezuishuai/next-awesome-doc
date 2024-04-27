@@ -1,4 +1,6 @@
 /dist
+/log
+/public
 # 不校验隐藏文件
 .*
 *.d.ts

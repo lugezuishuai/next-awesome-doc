@@ -1,3 +1,2 @@
 #!/bin/sh
-pnpm run lint:staged --filter="@jacksonhuang/random-blog-client" && \
-pnpm run lint:staged --filter="@jacksonhuang/random-blog-server"
+node common/scripts/install-run-rush-pnpm.js --rush-skip-checks --filter="@awesome-blog/server" lint:staged

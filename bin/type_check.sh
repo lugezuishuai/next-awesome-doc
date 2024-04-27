@@ -1,3 +1,2 @@
 #!/bin/sh
-pnpm run type:check --filter="@jacksonhuang/random-blog-client" && \
-pnpm run type:check --filter="@jacksonhuang/random-blog-server"
+node common/scripts/install-run-rush-pnpm.js --rush-skip-checks --filter="@awesome-blog/server" type:check

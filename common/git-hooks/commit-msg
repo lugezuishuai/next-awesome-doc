@@ -1,2 +1,2 @@
 #!/bin/sh
-pnpm run commitlint
+node common/scripts/install-run-rush.js commitlint

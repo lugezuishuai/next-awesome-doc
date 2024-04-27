@@ -1,6 +1,6 @@
-import controller from '../controller';
 import Router from 'koa-router';
+import { userController } from '../controller/user';
 
 export const user = new Router();
 
-user.get('/test', controller.user.test);
+user.get('/test', userController.test);
