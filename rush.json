@@ -369,8 +369,8 @@
     //   "shouldPublish": false
     // },
     {
-      "packageName": "@awesome-blog/server",
-      "projectFolder": "apps/server",
+      "packageName": "@next-awesome-doc/app",
+      "projectFolder": "apps/next",
       "shouldPublish": false
     }
     // {

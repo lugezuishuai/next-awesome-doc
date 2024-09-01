@@ -1,5 +1,5 @@
 {
-  "name": "@awesome-blog/root",
+  "name": "@next-awesome-doc/root",
   "version": "1.0.0",
   "description": "This is an awesome blog",
   "main": "index.js",
@@ -10,8 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lugezuishuai/awesome-blog.git"
+    "url": "git@github.com:lugezuishuai/next-awesome-doc.git"
   },
-  "author": "Jackson Huang <984374450@qq.com>",
+  "author": "JacksonHuang <984374450@qq.com>",
   "license": "ISC"
 }

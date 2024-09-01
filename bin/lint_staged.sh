@@ -1,2 +1,2 @@
 #!/bin/sh
-node common/scripts/install-run-rush-pnpm.js --rush-skip-checks --filter="@awesome-blog/server" lint:staged
+node common/scripts/install-run-rush-pnpm.js --rush-skip-checks --filter="@next-awesome-doc/app" lint:staged

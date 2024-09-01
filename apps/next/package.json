@@ -1,0 +1,57 @@
+{
+  "name": "@next-awesome-doc/app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "lint:staged": "lint-staged",
+    "type:check": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@vercel/postgres": "^0.9.0",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.0.0",
+    "next": "^14.2.7",
+    "next-auth": "^5.0.0-beta.20",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "use-debounce": "^10.0.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/bcrypt": "^5.0.1",
+    "@types/node": "^20.12.2",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "@vercel/style-guide": "^5.0.1",
+    "autoprefixer": "^10.4.16",
+    "dotenv": "^16.4.5",
+    "eslint": "8.54.0",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-storybook": "^0.6.15",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "lint-staged": "^15.2.10",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.4",
+    "tailwindcss": "^3.3.5",
+    "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
